@@ -1,0 +1,4 @@
+//Vous allez écrire une requête qui permet de modifier le job de Spiderman, donnez lui l'id du job Lycéen.
+UPDATE users
+SET job = "5"
+WHERE users.id = 7

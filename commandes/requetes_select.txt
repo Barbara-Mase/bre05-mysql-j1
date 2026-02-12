@@ -1,0 +1,25 @@
+//Afficher toutes les infos de la table
+SELECT * FROM users
+
+//Afficher toutes les infos de l'user avec l'id 3 
+SELECT * FROM users WHERE id = 3
+
+//Afficher le username de l'user qui a l'id 2
+SELECT username FROM users WHERE id = 2
+
+//Affichez la liste de tous les users du plus grand id au plus petit
+SELECT * FROM users ORDER BY id DESC
+
+//Afficher les 3 derniers users
+SELECT * FROM users ORDER BY id DESC LIMIT 3
+
+//Vous allez écrire une requête qui permet de créer un nouvel utilisateur :
+
+    username : Spiderman
+
+    email : peter.parker@daily-bugle.com
+
+    job: 1
+    
+INSERT INTO user (username, email, job)
+VALUES ("Spiderman", "peter.parker@daily-bugle.com", "job") //Ne pas oublier les guillemets

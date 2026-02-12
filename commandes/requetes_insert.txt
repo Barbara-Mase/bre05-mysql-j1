@@ -1,0 +1,14 @@
+//Vous allez écrire une requête qui permet de créer un nouvel utilisateur :
+
+    username : Spiderman
+
+    email : peter.parker@daily-bugle.com
+
+    job: 1
+    
+INSERT INTO user (username, email, job)
+VALUES ("Spiderman", "peter.parker@daily-bugle.com", "job") //Ne pas oublier les guillemets
+
+//Vous allez écrire une requête qui permet de créer un nouveau job :name : Lycéen
+INSERT INTO jobs (name)
+VALUES ("Lycéen")

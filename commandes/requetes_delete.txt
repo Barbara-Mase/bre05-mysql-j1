@@ -1,0 +1,3 @@
+//Vous allez écrire une requête qui permet de supprimer Batman.
+DELETE FROM users
+WHERE users.username = "Batman"
